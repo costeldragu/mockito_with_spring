@@ -15,7 +15,7 @@ public class MySqlConnector {
 
     static {
         Properties props = new Properties();
-        try (InputStream in = Files.newInputStream(Paths.get("database.properties"))) {
+        try (InputStream in = Files.newInputStream(Paths.get("src/main/resources/database.properties"))) {
             props.load(in);
         } catch (IOException e) {
             e.printStackTrace();

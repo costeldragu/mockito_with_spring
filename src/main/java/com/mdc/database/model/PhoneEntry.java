@@ -37,4 +37,14 @@ public class PhoneEntry {
     public void setPhone(String phone) {
         this.phone = phone;
     }
+
+    @Override
+    public String toString() {
+        return "PhoneEntry{" +
+                "pbid=" + pbid +
+                ", pid=" + pid +
+                ", name='" + name + '\'' +
+                ", phone='" + phone + '\'' +
+                '}';
+    }
 }
