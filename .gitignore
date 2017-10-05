@@ -13,6 +13,7 @@
 *.tar
 *.zip
 *.tgz
+*.iml
 
 # Logs and databases #
 ######################
@@ -47,3 +48,6 @@ markup
 /Vagrantfile
 out
 /out/*
+MockitoWithSpring.iml
+src/test/
+target/
